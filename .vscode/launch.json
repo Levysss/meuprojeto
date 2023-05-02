@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MeuprojetoApplication<meuprojeto>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.levy.meuprojeto.MeuprojetoApplication",
+            "projectName": "meuprojeto",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
