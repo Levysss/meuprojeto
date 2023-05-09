@@ -15,7 +15,7 @@ public class Servico {
     private Mensagem mensagem;
     @Autowired
     private Repositorio acao;
-
+    //metodo
     public ResponseEntity<?> cadastrar(Pessoa obj){
         if(obj.getNome().equals("")){
             mensagem.setMensagem("O nome preciasa ser preenchido");
